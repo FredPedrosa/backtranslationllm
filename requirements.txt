@@ -1,0 +1,4 @@
+google-generativeai
+deepl
+pandas
+jinja2
