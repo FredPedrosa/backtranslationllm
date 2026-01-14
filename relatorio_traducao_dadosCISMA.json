@@ -1,0 +1,160 @@
+[
+  {
+    "item_original": "¿Cómo me encuentro ahora?",
+    "etapa_1_traducao_inicial": "Como estou me sentindo agora?",
+    "etapa_2_retrotraducao": "¿Cómo me siento ahora?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "A tradução está em conformidade com todas as diretrizes. A equivalência semântica entre o original e a retrotradução é mantida. A tradução segue as regras críticas, utilizando uma estrutura de pergunta interrogativa direta (Regra #2) e a perspectiva narrativa em primeira pessoa (Regra #3)."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "Como estou me sentindo agora?"
+  },
+  {
+    "item_original": "¿Cuánto dolor tengo en este momento?",
+    "etapa_1_traducao_inicial": "Quanta dor estou sentindo neste momento?",
+    "etapa_2_retrotraducao": "¿Cuánto dolor estoy sintiendo en este momento?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "A tradução atende a todos os critérios. A equivalência semântica entre o original e o retrotraduzido é mantida, com foco no estado presente ('neste momento'). A tradução adere estritamente às diretrizes críticas: é uma pergunta interrogativa direta (Regra #2) e está na perspectiva da primeira pessoa ('estou sentindo') (Regra #3). A linguagem é clara, simples e apropriada para o contexto."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "Quanta dor estou sentindo neste momento?"
+  },
+  {
+    "item_original": "¿Me siento relajado/a?",
+    "etapa_1_traducao_inicial": "Eu me sinto relaxado?",
+    "etapa_2_retrotraducao": "¿Me siento relajado?",
+    "etapa_3_julgamento": {
+      "is_approved": false,
+      "reasoning": "The translation fails to adhere to Rule #1 (Semantic Equivalence). The original item uses the gender-inclusive form 'relajado/a', while the translation 'relaxado' only uses the masculine form. To maintain the exact meaning and inclusiveness of the source, the translation should have been 'Eu me sinto relaxado/a?'."
+    },
+    "etapa_4_traducao_corrigida": "Eu me sinto relaxado/a?",
+    "status_final": "CORRIGIDO",
+    "traducao_final": "Eu me sinto relaxado/a?"
+  },
+  {
+    "item_original": "¿Me siento animado/a?",
+    "etapa_1_traducao_inicial": "Eu me sinto encorajado?",
+    "etapa_2_retrotraducao": "¿Me siento animado?",
+    "etapa_3_julgamento": {
+      "is_approved": false,
+      "reasoning": "The translation fails on semantic equivalence (Rule #1). The Spanish term 'animado/a' translates more accurately to 'lively' or 'cheerful' ('animado' in Portuguese). The chosen term 'encorajado' ('encouraged') introduces a different nuance, implying an external source of courage, which does not preserve the exact meaning of the original item."
+    },
+    "etapa_4_traducao_corrigida": "Eu me sinto animado/a?",
+    "status_final": "CORRIGIDO",
+    "traducao_final": "Eu me sinto animado/a?"
+  },
+  {
+    "item_original": "¿Me siento acompañado/a?",
+    "etapa_1_traducao_inicial": "Eu me sinto acompanhado?",
+    "etapa_2_retrotraducao": "¿Me siento acompañado?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "A tradução está em conformidade com todas as diretrizes. Ela mantém a equivalência semântica, a perspectiva em primeira pessoa ('Eu me sinto...'), e a estrutura de pergunta direta, conforme exigido pelas regras críticas #2 e #3 do manual."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "Eu me sinto acompanhado?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para expresarme?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me ajudou a me expressar?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me ayudó a expresarme?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "A tradução está em conformidade com todas as diretrizes. A equivalência semântica entre o original ('me sirvió para expresarme') e a tradução ('me ajudou a me expressar') é mantida. As regras críticas de estrutura do item (pergunta direta, Regra #2) e perspectiva narrativa (primeira pessoa, Regra #3) foram estritamente seguidas."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "A sessão de musicoterapia me ajudou a me expressar?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para disfrutar?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me ajudou a me divertir?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me ayudó a divertirme?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "The translation is approved. It is semantically equivalent to the original and fully adheres to all guidelines. Specifically, it correctly uses a direct interrogative structure (Rule #2) and maintains the first-person perspective (Rule #3), which are critical requirements."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "A sessão de musicoterapia me ajudou a me divertir?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para recordar o activar mi memoria?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me ajudou a lembrar ou a ativar minha memória?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me ayudó a recordar o a activar mi memoria?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "A tradução está em conformidade com todas as diretrizes. Ela mantém a equivalência semântica, utiliza a estrutura de pergunta direta (Regra #2) e a perspectiva correta em primeira pessoa ('me', 'minha') (Regra #3), conforme exigido pelo manual de estilo."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "A sessão de musicoterapia me ajudou a lembrar ou a ativar minha memória?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para distraerme de mis preocupaciones?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me distraiu de minhas preocupações?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me distrajo de mis preocupaciones?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "The translation is approved. It is semantically equivalent to the original, preserving the core meaning. It fully adheres to all guidelines, including the critical rules for item structure (Rule #2) and first-person narrative perspective (Rule #3)."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "A sessão de musicoterapia me distraiu de minhas preocupações?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para conectar con mis sentimientos?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me ajudou a me conectar com meus sentimentos?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me ayudó a conectarme con mis sentimientos?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "The translation is semantically equivalent to the original. It fully adheres to all guidelines, including the critical rules for item structure (direct interrogative question, Rule #2) and narrative perspective (first-person, Rule #3)."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "A sessão de musicoterapia me ajudou a me conectar com meus sentimentos?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para relacionarme con otras personas?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me ajudou a me relacionar com outras pessoas?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me ayudó a relacionarme con otras personas?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "The translation is semantically equivalent to the original. It correctly adheres to all guidelines, including the critical rules for item structure (Rule #2) by being a direct interrogative question, and for narrative perspective (Rule #3) by using the first-person pronoun 'me'."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "A sessão de musicoterapia me ajudou a me relacionar com outras pessoas?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para hablar de mis sentimientos?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me ajudou a falar sobre meus sentimentos?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me ayudó a hablar sobre mis sentimientos?",
+    "etapa_3_julgamento": {
+      "is_approved": true,
+      "reasoning": "The translation is semantically equivalent to the original. It fully adheres to all guidelines, including the critical ones: it is a direct interrogative question (Rule #2) and maintains the first-person perspective ('me', 'meus') as required (Rule #3)."
+    },
+    "status_final": "APROVADO",
+    "traducao_final": "A sessão de musicoterapia me ajudou a falar sobre meus sentimentos?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia hizo que el tiempo pase más rápido?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia fez o tempo passar mais rápido?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia hizo que el tiempo pasara más rápido?",
+    "etapa_3_julgamento": {
+      "is_approved": false,
+      "reasoning": "A tradução falha em aderir à Regra #3 (Perspectiva Narrativa), que é crítica. A regra exige que os itens sejam formulados na perspectiva da primeira pessoa (ex: 'Eu', 'me'). A tradução \"A sessão de musicoterapia fez o tempo passar mais rápido?\" mantém a estrutura de terceira pessoa do original (\"A sessão...\"), em vez de adaptá-la para a primeira pessoa, como seria \"A musicoterapia me fez sentir que o tempo passou mais rápido?\" ou similar, conforme exigido pelo manual."
+    },
+    "etapa_4_traducao_corrigida": "A musicoterapia me fez sentir que o tempo passou mais rápido?",
+    "status_final": "CORRIGIDO",
+    "traducao_final": "A musicoterapia me fez sentir que o tempo passou mais rápido?"
+  },
+  {
+    "item_original": "¿La sesión de musicoterapia me sirvió para conectar con sensaciones positivas?",
+    "etapa_1_traducao_inicial": "A sessão de musicoterapia me ajudou a me conectar com sentimentos positivos?",
+    "etapa_2_retrotraducao": "¿La sesión de musicoterapia me ayudó a conectarme con sentimientos positivos?",
+    "etapa_3_julgamento": {
+      "is_approved": false,
+      "reasoning": "A tradução falha no critério de Equivalência Semântica (Regra #1). O termo original 'sensaciones' (sensações) foi traduzido como 'sentimentos'. Embora relacionados, os termos não são sinônimos diretos. 'Sensações' pode incluir percepções físicas e emocionais, enquanto 'sentimentos' se refere mais estritamente a estados emocionais. Essa alteração não preserva o 'significado exato' do item original, conforme exigido pelas diretrizes."
+    },
+    "etapa_4_traducao_corrigida": "A sessão de musicoterapia me ajudou a me conectar com sensações positivas?",
+    "status_final": "CORRIGIDO",
+    "traducao_final": "A sessão de musicoterapia me ajudou a me conectar com sensações positivas?"
+  }
+]
