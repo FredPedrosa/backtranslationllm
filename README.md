@@ -55,8 +55,34 @@ CVC Total (Relevância): ex: 0.951
 **Tradução**: DeepL API.
 **Análise de Dados**: Python, Pandas, Numpy.
 
+
+## 📁 Estrutura de Arquivos e Entregáveis
+
+A pipeline gera automaticamente uma série de arquivos que documentam cada etapa do processo de validação:
+
+### 📥 Entrada
+*   **`CISMA.csv`**: Arquivo original contendo os itens do instrumento no idioma de origem (Espanhol).
+
+### ⚙️ Processamento e Embeddings
+*   **`ItensCISMA.csv`**: Versão processada e limpa dos itens para entrada na pipeline.
+*   **`embeddingsCISMA.csv`** e **`embeddingsCISMA_originais.csv`**: Representações vetoriais dos itens. Estes arquivos são utilizados para análise de similaridade semântica matemática entre o original e a tradução final. (Para isso, veja o repositório SNA.)
+
+### 📊 Relatórios de Saída (Resultados)
+*   **`relatorio_validacao_cvcCISMA.xlsx`**: O principal entregável científico. Contém a planilha completa com as notas de todos os juízes, cálculos de CVC (Clareza, Pertinência e Relevância) e o veredito final por item.
+*   **`relatorio_traducao_completoCISMA.html`**: Relatório visual e interativo que permite revisar todo o processo de tradução e as justificativas dos agentes de IA em um navegador.
+*   **`traducoes_finaisCISMA.csv`**: Lista final dos itens traduzidos e validados, pronta para uso em aplicações ou pesquisas.
+*   **`relatorio_traducao_dadosCISMA.json`**: Dados brutos da execução em formato estruturado, ideal para auditoria técnica ou integração com outros sistemas.
+
 ## ⚖️ Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
 
+## 📚 Referências
 
+### Instrumento Original
+*   **Vercher, I. B., Soler, A. A., & Ferrari, K. D. (2023).** CUESTIONARIO CISMA - CUESTIONARIO DEL IMPACTO DE LAS SESIONES DE MUSICOTERAPIA EN PACIENTES ADULTOS. *Brazilian Journal of Music Therapy*, (33). [https://doi.org/10.51914/brjmt.33.2022.385](https://doi.org/10.51914/brjmt.33.2022.385)
 
+### Metodologia de Validação (CVC)
+*   **Hernández-Nieto, R. A. (2002).** *Contributions to Statistical Analysis*. Mérida: Universidad de los Andes. (Referência utilizada para o cálculo do Coeficiente de Validade de Conteúdo e ponto de corte de 0.80).
+
+### Referência para este repositório
+*   Pedrosa, F. G. (2025). *BackTranslationLLM: Pipeline automatizada para Validade de Conteúdo com IA Agêntica*. Disponível em: https://github.com/FredPedrosa/backtranslationllm
